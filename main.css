@@ -1,0 +1,146 @@
+body{
+    background-color:#B6DBF2;
+    font-family: 'Lato', sans-serif;
+}
+#container{
+    width:960px;
+    margin-left:auto;
+    margin-right:auto;
+    padding:3px;
+    margin-top:auto;
+    margin-bottom:auto;
+}
+#header{
+    width:920px;
+    padding:20px;
+    text-align:center;
+    background-color:#D99F6C;
+    margin:10px;
+    height:50px;
+    color:white;
+    font-size:46px;
+}
+#menu{
+    width:940px;
+    padding:10px;
+    background-color:#3B82BF;
+    margin:10px;
+    height:80px;
+    text-align:center;
+}
+#menu1{
+    float:left;
+    background-color:#5FAAD9;
+    margin:10px;
+    width:340px;
+    height:50px;
+    padding:5px;    
+}
+#menu2{
+    float:left;
+    background-color:#5FAAD9;
+    margin:10px;
+    width:340px;
+    height:50px;
+    padding:5px;    
+}
+#menu3{
+    float:left;
+    background-color:#5FAAD9;
+    margin:10px;
+    width:70px;
+    height:35px;
+    padding:5px; 
+    color:white;
+    font-size:15px;
+    padding-top:20px;
+    cursor:pointer;
+}
+#menu3:hover{
+    background-color:#3CAAB7;
+}
+#menu4{
+    float:left;
+    background-color:#5FAAD9;
+    margin:10px;
+    width:70px;
+    height:35px;
+    padding:5px; 
+    color:white;
+    font-size:15px;
+    padding-top:20px;
+    cursor:pointer;
+}
+#menu4:hover{
+    background-color:#3CAAB7;
+}
+
+#content{
+    background-color:#BF754B;
+    width:920px;
+    padding:20px;
+    margin:10px;
+    text-align:center;
+    height:360px;
+}
+#footer{
+    width:920px;
+    padding:20px;
+    text-align:center;
+    background-color:#D99F6C;
+    margin:10px;
+    height:20px;
+    text-align:center;
+}
+.kula{
+    width:50px;
+    text-align:center;
+}
+
+span{
+    padding:2px;
+}
+#zwrot2{
+    cursor:pointer;
+}
+#canvasa{
+    background-color:#666666;
+    height:300px;
+    width: 920px;
+}
+#canvas{
+    background-color:#666666;
+    height:300px;
+    width: 920px;
+}
+#wynik1{
+    background-color:#AE645A;
+    width:446px;
+    height:40px;
+    float:left;
+    margin-top:10px;
+    text-align:center;
+    color:white;
+    padding:2px;
+    padding-top:20px;
+}
+#wynik2{
+    background-color:#AE645A;
+    width:446px;
+    height:40px;
+    float:left;
+    margin-top:10px;
+    margin-left:20px;
+    text-align:center;
+    color:white;
+    padding:2px;
+    padding-top:20px;
+}
+.jsphoto{
+    display:none;
+}
+#reset{
+    text-decoration: none;
+    color:white;
+}
+

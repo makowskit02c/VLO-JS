@@ -1,0 +1,55 @@
+<!<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="utf-8">
+        <title>Projekt Tomasz Makowski</title>
+        <link rel="stylesheet" href="main.css">
+        <script type="text/javascript" src="projekt.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" type="image/png" href="laptop.png"/>
+    </head>
+    <body onload="tlo()">
+        <div id="container">
+            <div id="header">Symulator zderzeń doskonale sprężystych</div>
+            <div id="menu">
+                <div id="menu1">
+                    Ciało 1:<br/>
+                    <span>masa:</span><input type="text" class="kula" id="masa1"/>
+                    <span>prędkość:</span><input type="text" class="kula" id="predkosc1"/>
+                </div>
+                <div id="menu2">
+                    Ciało 2:<br/>
+                    <span>masa:</span><input type="text" class="kula" id="masa2"/>
+                    <span>prędkość:</span><input type="text" class="kula" id="predkosc2"/>
+                    <span>zwrot:</span>
+                    <select id="zwrot2">
+                        <option>Lewo</option>
+                        <option>Prawo</option>
+                    </select>
+                </div>
+                 <div id="menu3" onclick="draw()">
+                    Sprawdź!
+                </div>
+                <div id="menu4">
+                    <a href="index.html" id="reset">
+                        Resetuj!
+                    </a>
+                </div>
+                <div style="clear:both"></div>
+            </div>
+            <div id="content">
+                <div id="canvasa">
+                    <canvas id="canvas"></canvas>
+                </div>
+                <div id="wynik1"></div>
+                <div id="wynik2"></div>
+                <div style="clear:both;"></div>
+            </div>
+            <div id="footer">Tomasz Makowski, klasa 2c - maj 2020 r.</div>
+        </div>
+        <img class="jsphoto" id="chmurka" src="chmurka.png"/>
+        <img class="jsphoto" id="kula1" src="chrome.png"/>
+        <img class="jsphoto" id="kula2" src="firefox.png"/>
+        
+    </body>
+</html>
